@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaInicial));
-            this.BTiniciar = new System.Windows.Forms.Button();
+            this.Btn_iniciar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // BTiniciar
+            // Btn_iniciar
             // 
-            this.BTiniciar.Location = new System.Drawing.Point(51, 375);
-            this.BTiniciar.Name = "BTiniciar";
-            this.BTiniciar.Size = new System.Drawing.Size(122, 41);
-            this.BTiniciar.TabIndex = 0;
-            this.BTiniciar.Text = "button1";
-            this.BTiniciar.UseVisualStyleBackColor = true;
+            this.Btn_iniciar.Location = new System.Drawing.Point(52, 332);
+            this.Btn_iniciar.Name = "Btn_iniciar";
+            this.Btn_iniciar.Size = new System.Drawing.Size(90, 34);
+            this.Btn_iniciar.TabIndex = 0;
+            this.Btn_iniciar.Text = "Iniciar";
+            this.Btn_iniciar.UseVisualStyleBackColor = true;
             // 
             // TelaInicial
             // 
@@ -49,7 +49,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(957, 695);
-            this.Controls.Add(this.BTiniciar);
+            this.Controls.Add(this.Btn_iniciar);
+            this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaInicial";
@@ -61,7 +62,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button BTiniciar;
+        private System.Windows.Forms.Button Btn_iniciar;
     }
 }
 
