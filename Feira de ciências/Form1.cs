@@ -26,5 +26,10 @@ namespace Feira_de_ciências
         {
 
         }
+
+        private void Btn_iniciar_Click(object sender, EventArgs e)
+        {
+          this.Hide();
+        }
     }
 }

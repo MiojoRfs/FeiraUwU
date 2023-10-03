@@ -40,6 +40,7 @@
             this.Btn_iniciar.TabIndex = 0;
             this.Btn_iniciar.Text = "Iniciar";
             this.Btn_iniciar.UseVisualStyleBackColor = true;
+            this.Btn_iniciar.Click += new System.EventHandler(this.Btn_iniciar_Click);
             // 
             // TelaInicial
             // 
