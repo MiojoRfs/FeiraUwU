@@ -30,6 +30,8 @@ namespace Feira_de_ciências
         private void Btn_iniciar_Click(object sender, EventArgs e)
         {
           this.Hide();
+            Tela_Perguntas Telaperg = new Tela_Perguntas();
+            Telaperg.Show();
         }
     }
 }

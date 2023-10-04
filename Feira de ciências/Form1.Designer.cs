@@ -55,6 +55,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaInicial";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = ":::: inicial ::::";
             this.Load += new System.EventHandler(this.TelaInicial_Load);
             this.ResumeLayout(false);
